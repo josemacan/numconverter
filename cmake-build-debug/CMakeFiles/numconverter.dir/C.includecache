@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/admint/CLionProjects/numconverter/main.c
+stdio.h
+-
+string.h
+-
+time.h
+-
+stdlib.h
+-
+getopt.h
+-
+unistd.h
+-
+
